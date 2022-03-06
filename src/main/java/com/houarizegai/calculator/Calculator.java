@@ -74,7 +74,7 @@ public class Calculator {
 
         comboTheme = initCombo(new String[]{"Simple", "Colored", "DarkTheme"}, 230, 30, "Theme", themeSwitchEventConsumer);
 
-        comboCalcType = initCombo(new String[]{"Standard", "Scientific"}, 20, 30, "Calculator type", calcTypeSwitchEventConsumer);
+        comboCalcType = initCombo(new String[]{"Standara", "Scientific"}, 20, 30, "Calculator type", calcTypeSwitchEventConsumer);
 
         int[] x = {MARGIN_X, MARGIN_X + 90, 200, 290, 380};
         int[] y = {MARGIN_Y, MARGIN_Y + 100, MARGIN_Y + 180, MARGIN_Y + 260, MARGIN_Y + 340, MARGIN_Y + 420};
@@ -383,7 +383,6 @@ public class Calculator {
                     } else {
                         inText.setText(String.valueOf(val));
                     }
-                    opt = '√';
                     addWrite = false;
                 }
         });
