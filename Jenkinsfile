@@ -1,12 +1,7 @@
 pipeline {
-  agent {
-    node {
-      label 'Cal'
-    }
-
-  }
+  agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         echo 'hello'
       }
